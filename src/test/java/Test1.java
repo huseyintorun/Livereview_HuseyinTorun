@@ -1,8 +1,19 @@
+import org.junit.Test;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
 public class Test1 {
-    public static void main(String[] args) {
+   @BeforeMethod
+   public void setUp(){
 
-        //added more work
-        //added one more work ...
-    }
+   }
+   @Test
+   public void test1(){
 
+   }
+
+   @AfterMethod
+   public void tearDown(){
+
+   }
 }
